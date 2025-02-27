@@ -4,5 +4,5 @@ services:
   wordle-helper:
     build: .
     ports:
-      - "8080:80"
+      - "7070:80"
     restart: unless-stopped
